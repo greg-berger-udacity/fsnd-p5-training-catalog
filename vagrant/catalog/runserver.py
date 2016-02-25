@@ -1,0 +1,5 @@
+from catalog import app
+
+# Start the app
+app.debug = True
+app.run(host = '0.0.0.0', port = 5000)
